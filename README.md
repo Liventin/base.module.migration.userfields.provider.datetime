@@ -1,4 +1,4 @@
-# base.module.migration.userfields.provider.string
+# base.module.migration.userfields.provider.datetime
 
 <table>
 <tr>
