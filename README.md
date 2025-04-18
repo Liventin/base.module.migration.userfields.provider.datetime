@@ -30,7 +30,7 @@ redirect (optional)
 }
 ```
 PhpStorm Life Template Example
-```
+```php
 <?php
 
 namespace ${MODULE_PROVIDER_CAMMAL_CASE}\\${MODULE_CODE_CAMMAL_CASE}\Migration\UserFields;
