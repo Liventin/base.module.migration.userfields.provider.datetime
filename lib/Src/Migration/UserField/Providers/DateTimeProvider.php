@@ -19,7 +19,7 @@ class DateTimeProvider extends UserFieldProvider
 
     public function setUseSeconds(bool $useSeconds): self
     {
-        $this->settings['USE_SECONDS'] = $useSeconds ? 'Y' : 'N';
+        $this->settings['USE_SECOND'] = $useSeconds ? 'Y' : 'N';
         return $this;
     }
 
@@ -27,12 +27,5 @@ class DateTimeProvider extends UserFieldProvider
     {
         $this->settings['USE_TIMEZONE'] = $useTimeZone ? 'Y' : 'N';
         return $this;
-    }
-
-    public function getParamsToArray(): array
-    {
-        return array_merge(parent::getParamsToArray(), [
-            'SETTINGS' => $this->settings,
-        ]);
     }
 }
