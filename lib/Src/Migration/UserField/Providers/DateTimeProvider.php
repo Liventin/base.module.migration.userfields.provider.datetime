@@ -2,8 +2,6 @@
 
 namespace Base\Module\Src\Migration\UserField\Providers;
 
-use Base\Module\Src\Migration\UserField\Interface\UserFieldProvider;
-
 class DateTimeProvider extends UserFieldProvider
 {
     public static function getType(): string
